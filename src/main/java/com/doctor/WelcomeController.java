@@ -12,7 +12,7 @@ public class WelcomeController {
 	}
 
 	@GetMapping
-	public String login() {
+	public String signUp() {
 		return "please login";
 	}
 }
