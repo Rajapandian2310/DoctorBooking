@@ -11,4 +11,8 @@ public class WelcomeController {
 		return "Welcome to the doctor Application";
 	}
 
+	@GetMapping
+	public String login() {
+		return "please login";
+	}
 }
